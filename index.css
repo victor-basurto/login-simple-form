@@ -1,0 +1,16 @@
+body {
+	background: #eaeaea;
+}
+.info-centered {
+	margin-top: 50px;
+	border: 1px solid black;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.hide-empty-space {
+	height: 42px;
+}
+#inputEmail3 {
+	margin-bottom: -17px;
+}
