@@ -1,13 +1,24 @@
 body {
-	background: #eaeaea;
+	/*background: #eaeaea;*/
+	background: #bbc6e5;
 }
 .info-centered {
 	margin-top: 50px;
-	border: 1px solid black;
+	border: 2px solid black;
+	border-radius: 5px;
 	width: 600px;
 	margin-right: auto;
 	margin-left: auto;
+	background: #eaeaea;
 }
+.login-panel {
+	border-bottom: 2px solid black;
+	background-color: #464646;
+}
+.login-panel h4 {
+	color: #fff;
+}
+
 .hide-empty-space {
 	height: 42px;
 }
