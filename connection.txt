@@ -1,0 +1,9 @@
+db.user.insert({
+	"name": "victor",
+	"pass": "passioned"
+})
+
+
+
+
+> py -m http.server //conexion a py
