@@ -20,13 +20,12 @@ $(document).on('ready', function() {
 		// Method: Post
 		$.ajax({
 			headers: {
-				Accept: 'application/x-www-form-urlencoded',
-				contentType: 'application/json'
+				// Accept: 'application/x-www-form-urlencoded',
+				'Content-Type': 'application/json'
 			},
 			method: 'POST',
 			url: 'http://localhost:8080/login-sys/user',
-			contentType: 'application/x-www-form-urlencoded',
-			data: user,
+			data: JSON.stringify(user),
 			success: function( response ) {
 				console.log('Response: ', response);
 			},
